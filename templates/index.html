@@ -1,121 +1,68 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
+<html xmlns="http://www.w3.org/1999/html">
+ <head>
+    <link rel="stylesheet" type="text/css" href="static\style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	
-	<head>
-    <link
-      rel="shortcut icon"
-      type="image/x-icon" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <style>
-      body {
-        font-family: calibri;
-      }
-      h1 {
-        background-color: blue;
-        display: inline-block;
-        font-size: 3em;
-        margin: 0;
-        padding: 14px;
-      }
-      h3 {
-        color: black;
-        font-size: 20px;
-        margin-top: 3px;
-        text-align: center;
-      }
-      #chatbox {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        margin-top: 60px;
-      }
-      #userInput {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        margin-top: 60px;
-      }
-      #textInput {
-        width: 90%;
-        border: none;
-        border-bottom: 3px solid black;
-        font-family: monospace;
-        font-size: 17px;
-      }
-      .userText {
-        color: white;
-        font-family: monospace;
-        font-size: 15px;
-        text-align: right;
-        line-height: 30px;
-      }
-      .userText span {
-        background-color: #808080;
-        padding: 10px;
-        border-radius: 2px;
-      }
-      .botText {
-        color: white;
-        font-family: monospace;
-        font-size: 15px;
-        text-align: left;
-        line-height: 30px;
-      }
-      .botText span {
-        background-color: #4169e1;
-        padding: 10px;
-        border-radius: 2px;
-      }
-      #tidbit {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 300px;
-      }
-      .chat-box {
-        margin-left: auto;
-        margin-right: auto;
-        width: 78%;
-        margin-top: 60px;
-        border: 1px solid green;
-      }
-      .box {
-        border: 2px solid black;
-      }
-    </style>
+    <link rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
-	
+
 <body>
-    <center>
-      <h1>
-          Covid-19 ChatBot
-      </h1>
-    </center>
-<div class="box"></div>
-    <div class="chat-box">
-      <div>
+<nav class="navbar navbar-light bg-light fixed-top">
+  <span class="navbar-brand mb-0 h1">Checkit - <small class="text-muted"> ChatBot</small></span>Hi!  I'm here to Help.Get information and guidance regarding Coronavirus disease (COVID-19) , SARS and many more.
+    <span></span>
+
+</nav><div class="box"></div>
+<div class="chat-box">
+      <div class="cb" style="width: 800px; padding-right: 100px;">
         <div id="chatbox">
           <p class="botText">
-            <span> Hi! I'm a Covid ChatBot and I'm here to assist you.. <br>
-                Get information and guidance regarding the current outbreak of coronavirus disease (COVID-19).<br>
-<br>
-                What would you like to know about coronavirus?<br>
-                1. PROTECT 👍 Protecting yourself<br>
-                2. FAQ❓Your questions answered<br>
-                3. MYTHS 📚 Know the facts!<br>
-                4. NEWS 📰 News & Press<br>
-                5. Covid-19 ChatBot ℹ️<br>
-                6. LANGUAGE 🌐 Change language</span>
+            <span>
+
+               <button class="btn btn-dark" style="margin: 2px" disabled>What would you like to know about coronavirus?</button><br>
+                <button class="btn btn-dark" style="margin: 2px" disabled>1. PROTECT 👍 Protecting yourself</button><br>
+                <button class="btn btn-dark" style="margin: 2px" disabled>2. FAQ❓Your questions answered</button><br>
+                <button class="btn btn-dark" style="margin: 2px" disabled>3. MYTHS 📚 Know the facts!</button><br>
+                <button class="btn btn-dark" style="margin: 2px" disabled>4. Covid-19 ChatBot ℹ</button><br>
+                <button class="btn btn-dark" style="margin: 2px" disabled>5. LANGUAGE 🌐 Change language</button>
+            </span>
           </p>
         </div>
         <div id="userInput">
           <input id="textInput" type="text" name="msg" placeholder="Message" />
         </div>
       </div>
+
+
+    <div class="cb" style="width: 450px;">
+        <button class="btn btn-dark" style="margin: 2px" disabled>For More Information</button></br>
+        <button class="btn btn-primary" style="margin: 2px" disabled>Twitter Accounts & Hashtags  : </button>
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/WHO"  target="_blank"> @World Health Organization (WHO)</a>
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/CDC_eHealth"  target="_blank"> @CDC_eHealth</a>
+
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/search?q=%23COVID19ireland&src=typeahead_click"  target="_blank"> #COVID19ireland</a>
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/search?q=%23irelandCovid&src=typeahead_click"  target="_blank"> #irelandCovid</a>
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/search?q=%23CovidVaccine&src=typeahead_click"  target="_blank"> #CovidVaccine</a>
+   <a type="button" class="btn btn-outline-primary"  href="https://twitter.com/search?q=%23covidstrain&src=typeahead_click"  target="_blank"> #covidstrain</a> </br>
+
+
+
+        <button class="btn btn-success" style="margin: 2px" disabled>Websites  : </button></br>
+   <a type="button" class="btn btn-outline-success"  href="https://www.who.int/health-topics/coronavirus#tab=tab_1"  target="_blank"> WHO about CoronaVirus</a>
+   <a type="button" class="btn btn-outline-success"  href="https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1"  target="_blank"> WHO about SARS</a>
+    <a type="button" class="btn btn-outline-success"  href="https://covid19.who.int/region/euro/country/ie"  target="_blank">COVID Dashboard</a></br>
+
+        <button class="btn btn-danger" style="margin: 2px" disabled>NEWS Websites  : </button></br>
+   <a type="button" class="btn btn-outline-danger"  href="https://www.irishmirror.ie/"  target="_blank">Irish Mirror</a>
+   <a type="button" class="btn btn-outline-danger"  href="https://www.irishtimes.com/"  target="_blank">Irish Times</a>
+    <a type="button" class="btn btn-outline-danger"  href="https://www.dublinlive.ie/"  target="_blank">Dublin Live</a>
+
+
+
     </div>
+
 	<script>
         function getBotResponse() {
           var rawText = $("#textInput").val();
@@ -126,7 +73,9 @@
             .getElementById("userInput")
             .scrollIntoView({ block: "start", behavior: "smooth" });
           $.get("/get", { msg: rawText }).done(function(data) {
-            var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+            var botHtml = '<div class="example2" style="border: 1px solid #dedbdb;\n' +
+                '  padding: 10px;\n' +
+                '  border-radius: 50px 20px;"><span>' + data + "</span></div>";
             $("#chatbox").append(botHtml);
             document
               .getElementById("userInput")
