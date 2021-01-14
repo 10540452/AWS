@@ -8,7 +8,24 @@ h1 {
     margin-top: 0;
     text-align: center;
     font-size: 40px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
+
+.chat-box {
+    width: 750px;
+    margin-top: 50px;
+    border-left-width: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+    border-right-width: 0px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
 
 h3 {
     color: black;
@@ -16,19 +33,19 @@ h3 {
     margin-top: 3px;
     text-align: center;
 }
-
 #chatbox {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    margin-top: 60px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 #userInput {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
     margin-top: 60px;
+    height: 45px;
 }
 
 #textInput {
@@ -37,6 +54,7 @@ h3 {
     border-bottom: 3px solid #009688;
     font-family: monospace;
     font-size: 17px;
+    display:inline-block;
 }
 
 #buttonInput {
@@ -53,29 +71,38 @@ h3 {
     line-height: 30px;
 }
 
+.chatcol {
+  float: left;
+  padding: 10px;
+    width: 50%;
+  margin-top: 54px;
+  padding-left: 55px;
+  padding-right: 25px;
+}
+
 .userText span {
+    font-family: Courier;
     background-color: #009688;
     padding: 10px;
     border-radius: 2px;
 }
 
 .botText {
-    color: white;
-    font-family: monospace;
+    color: #ffffff;
+    font-family: Courier;
     font-size: 17px;
     text-align: left;
     line-height: 30px;
 }
 
-.botText span {
-    background-color: #EF5350;
-    padding: 10px;
-    border-radius: 2px;
-}
 
 #tidbit {
     position:absolute;
     bottom:0;
     right:0;
     width: 300px;
+}
+
+.box {
+    border: 2px solid black;
 }
