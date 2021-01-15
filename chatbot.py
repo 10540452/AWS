@@ -11,7 +11,7 @@ import glob
 def init_bot():
     global bot
     bot = ChatBot(
-        "covid-assist-chatbot",
+        "Check-it-chatbot",
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         database_uri='sqlite:///db.sqlite3',
         logic_adapters=[
