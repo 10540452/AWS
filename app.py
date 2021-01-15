@@ -3,7 +3,6 @@ from google_trans_new import google_translator
 import Dataset.WHO_data as dataset
 import Helper.utils as utils
 import chatbot
-# import speech_recognition as sr
 
 botApp = Flask(__name__)
 translator = google_translator()
@@ -40,7 +39,7 @@ def get_bot_response():
     elif (user_text.strip() == "Help") or (user_text.strip() == "help") or (user_text.strip() == "Help!"):
         return str('Ok, here is a link to search more: <a href=\'https://www.google.com\'>www.google.com</a>')
     elif user_text.isnumeric():
-        if int(user_text) == 6:
+        if int(user_text) == 4:
             utils.chatbot_enabled = True
             return translate("Hi, ask any question relate to Covid. For Quiting this chatbot Enter 'Quit'")
         elif (int(user_text) <= len(dataset.dataset)) and (int(user_text) > -1):
