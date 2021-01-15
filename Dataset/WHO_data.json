@@ -1,6 +1,6 @@
 [
   {
-            "Context": "What is a coronavirus?",
+            "Context": "What is coronavirus?",
             "Answer": "Coronaviruses are a large family of viruses which may cause illness in animals or humans. "
         },
         {
@@ -110,7 +110,7 @@
             "Answer": "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care."
         },
         {
-            "Context": "Should I worry about COVID-19",
+            "Context": "Should I worry about coronavirus",
             "Answer": "We can channel our concerns into actions to protect ourselves, our loved ones and our communities."
         },
         {
@@ -586,7 +586,7 @@
             "Answer": "Standard prevention measures to control the spread of COVID-19 are also recommended during travel. The use of medical face masks is strongly recommended at airports and during flights\n\nAdditional measures include physical distancing (keeping a distance of one or ideally two metres from others), strict hand hygiene (washing hands with soap and water regularly and/or using alcohol-based hand sanitisers), respiratory etiquette (coughing and sneezing into a tissue or elbow), and the use of face masks in any conveyance or situations in which physical distancing cannot be maintained."
         },
         {
-            "Context": "Covid-19 vaccine ?",
+            "Context": "Covid-19 vaccine?",
             "Answer": "Work on a number of different vaccines is ongoing, and several are currently being studied in large-scale trials. Several promising preliminary results have been published, and the European Commission has organised a joint procurement of potential COVID-19 vaccines and has joined the COVID-19 Vaccine Global Access Facility (COVAX). Vaccines in countries outside the EU/EEA have received pre-approval but have not yet been evaluated in Europe. "
         },
         {
@@ -595,7 +595,7 @@
         },
         {
             "Context": "Covid test centres?",
-            "Answer": "Dublin \n \n Dublin - Croke Park \n Dublin - LE Samuel Beckett \n For more details on covid testing visit  https://www2.hse.ie/conditions/coronavirus/testing/how-to-get-tested.html"
+            "Answer": "Dublin \n \n Dublin - Croke Park \n Dublin - LE Samuel Beckett  \n Dublin - LE Samuel Beckett\nDocked on Dublin's Quays the navy vessel is testing hundreds of people per day. \n For more details on covid testing visit  https://www2.hse.ie/conditions/coronavirus/testing/how-to-get-tested.html"
         },
         {
             "Context": "SARS-Cov vs SARS-Cov2?",
@@ -646,20 +646,20 @@
             "Answer": "CDC recommends that persons with SARS limit their interactions outside the home (for example, by not going to work or to school) until 10 days after their fever has gone away and their respiratory (breathing) symptoms have gotten better."
         },
         {
-            "Context": "Sars treatment?",
+            "Context": "sars treatment?",
             "Answer": "CDC recommends that patients with SARS receive the same treatment that would be used for a patient with any serious community-acquired atypical pneumonia. SARS-CoV is being tested against various antiviral drugs to see if an effective treatment can be found."
         },
         {
-            "Context": "Medical treatment ot Sars?",
+            "Context": "Medical treatment ot sars?",
             "Answer": "CDC recommends that patients with SARS receive the same treatment that would be used for a patient with any serious community-acquired atypical pneumonia. SARS-CoV is being tested against various antiviral drugs to see if an effective treatment can be found."
         },
         {
             "Context": "?",
-            "Answer": ""
+            "Answer": "Please enter a valid query."
         },
         {
-            "Context": "?",
-            "Answer": ""
+            "Context": " ",
+            "Answer": "Please enter a valid query."
         },
         {
             "Context": "?",
